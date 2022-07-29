@@ -1,0 +1,90 @@
+[package]
+name = "user-lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+riscv = "0.8"
+
+[profile.release]
+debug = true
+
+# [[bin]]
+# name = "hello-world"
+# path = "src/bin/00hello_world.rs"
+
+# [[bin]]
+# name = "store-fault"
+# path = "src/bin/01store_fault.rs"
+
+# [[bin]]
+# name = "power"
+# path = "src/bin/02power.rs"
+
+# [[bin]]
+# name = "priv-inst"
+# path = "src/bin/03priv_inst.rs"
+
+# [[bin]]
+# name = "priv-csr"
+# path = "src/bin/04priv_csr.rs"
+
+# [[bin]]
+# name = "write-a"
+# path = "src/bin/00write_a.rs"
+
+# [[bin]]
+# name = "write-b"
+# path = "src/bin/01write_b.rs"
+
+# [[bin]]
+# name = "write-c"
+# path = "src/bin/02write_c.rs"
+
+[[bin]]
+name = "power3"
+path = "src/bin/00power_3.rs"
+
+[[bin]]
+name = "power5"
+path = "src/bin/01power_5.rs"
+
+[[bin]]
+name = "power7"
+path = "src/bin/02power_7.rs"
+
+[[bin]]
+name = "sleep"
+path = "src/bin/03sleep.rs"
+
+# [[bin]]
+# name = "test-task-info"
+# path = "src/bin/ch3_taskinfo.rs"
+
+# [[bin]]
+# name = "hello-world"
+# path = "src/bin/00hello_world.rs"
+
+[[bin]]
+name = "mmap0"
+path = "src/bin/ch4_mmap0.rs"
+
+[[bin]]
+name = "mmap1"
+path = "src/bin/ch4_mmap1.rs"
+
+[[bin]]
+name = "mmap2"
+path = "src/bin/ch4_mmap2.rs"
+
+[[bin]]
+name = "mmap3"
+path = "src/bin/ch4_mmap3.rs"
+
+[[bin]]
+name = "unmap"
+path = "src/bin/ch4_unmap.rs"
+
+[[bin]]
+name = "unmap2"
+path = "src/bin/ch4_unmap2.rs"
